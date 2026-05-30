@@ -1,0 +1,2 @@
+set x to 10 divided by 0
+print x

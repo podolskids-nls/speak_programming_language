@@ -1,0 +1,7 @@
+repeat 5 times:
+    print "hello"
+
+set i to 1
+while i is less than 6:
+    print i
+    set i to i plus 1

@@ -1,0 +1,9 @@
+define factorial with n:
+    if n is equal to 0:
+        return 1
+    return n times call factorial with n minus 1
+
+print call factorial with 0
+print call factorial with 1
+print call factorial with 5
+print call factorial with 10

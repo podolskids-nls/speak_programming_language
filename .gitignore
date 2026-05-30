@@ -1,0 +1,34 @@
+# Локальные скрипты установки Go (не для репозитория)
+setup-go-path.ps1
+setup-go-path-admin.ps1
+
+# История чатов Cursor / SpecStory
+.specstory/
+
+# Служебные файлы Cursor
+.cursor/
+.cursorindexingignore
+
+# Промпт для разработки (локальный)
+cursor_megaprompt_speak.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Go: бинарники и кэш
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+# Тестовый кэш
+*.test
+coverage.out
+
+# ОС
+.DS_Store
+Thumbs.db
+desktop.ini

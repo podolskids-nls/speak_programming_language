@@ -1,0 +1,8 @@
+set x to 42
+set name to "Speak"
+set pi to 3.14159
+print x
+print name
+print pi
+set greeting to "Hello " plus name
+print greeting

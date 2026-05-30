@@ -1,0 +1,11 @@
+define greet with name:
+    print "Hello " plus name
+
+call greet with "Alice"
+call greet with "Bob"
+
+define square with n:
+    return n times n
+
+set result to call square with 7
+print result

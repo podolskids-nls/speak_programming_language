@@ -1,0 +1,15 @@
+set age to 20
+
+if age is greater than 18:
+    print "Adult"
+else:
+    print "Minor"
+
+set score to 85
+
+if score is greater than 90:
+    print "Excellent"
+if score is greater than 70:
+    print "Good"
+if score is less than 50:
+    print "Fail"

@@ -1,0 +1,9 @@
+set salary to 50000
+set years to 3
+
+if years is greater than 2:
+    set bonus to salary times 0.1
+    print "Bonus is:"
+    print bonus
+else:
+    print "No bonus yet"

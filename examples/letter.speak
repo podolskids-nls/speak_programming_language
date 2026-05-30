@@ -1,0 +1,12 @@
+define build_greeting with name:
+    return "Dear " plus name
+
+set recipient to "Alice"
+set body to "Thank you for your help."
+set sign to "Best regards"
+
+set greeting to call build_greeting with recipient
+
+print greeting
+print body
+print sign
